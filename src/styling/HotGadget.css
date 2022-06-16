@@ -1,4 +1,24 @@
 .HotGadget{
     display: flex;
+    width: 90vw;
+    margin: auto;
     justify-content: center;
 }
+
+ .HotGadget > div:first-child > img{
+    cursor: pointer;
+    transition: all 0.5s;
+    width: 22vw;
+ }
+
+ .HotGadget > div:first-child > img{
+    cursor: pointer;
+    transition: all 0.5s;
+    width: 22vw;
+ }
+
+ .HotGadget > div:last-child {
+    display: flex;
+    flex-wrap: wrap;
+ }
+

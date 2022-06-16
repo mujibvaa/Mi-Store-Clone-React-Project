@@ -29,8 +29,21 @@ function App() {
       <Routes>
         <Route exact path='/music' element= {<HotGadget music={data.hotAccessories.music} musicCover={data.hotAccessoriesCover.music} />} >
        </Route>
-      </Routes>
 
+       <Route exact path='/smartdevice' element= {<HotGadget smartDevice ={data.hotAccessories.smartDevice} smartCover={data.hotAccessoriesCover.smartDevice} />} >
+       </Route>
+
+       <Route exact path='/home' element= {<HotGadget home ={data.hotAccessories.home} homeCover={data.hotAccessoriesCover.home} />} >
+       </Route>
+
+       <Route exact path='/lifestyle' element= {<HotGadget lifestyle ={data.hotAccessories.lifeStyle} lyfCover={data.hotAccessoriesCover.lifeStyle} />} >
+       </Route>
+
+       <Route exact path='/mobileacc' element= {<HotGadget mobileacc ={data.hotAccessories.mobileAccessories} mobileaccCover={data.hotAccessoriesCover.mobileAccessories} />} >
+       </Route>
+
+      </Routes>
+ 
         
     
  

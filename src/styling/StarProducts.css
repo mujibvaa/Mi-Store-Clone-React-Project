@@ -14,6 +14,10 @@
 
 }
 
+.starproduct img{
+    transition: all 0.5s;
+}
+
 .starproduct img:hover{
     box-shadow: 6px 6px 15px rgba(53, 53, 53, 0.363);
     transition: all 0.2s;

@@ -9,7 +9,8 @@ import Heading from "./components/Heading.js"
 import StartProducts from "./components/StarProducts.js"
 import HotGadgetMenu from "./components/HotGadgetMenu.js"
 import HotGadget from "./components/HotGadget.js"
-
+import ProductReviews from "./components/ProductReviews.js"
+import Videos from "./components/Videos.js"
 
 function App() {
 
@@ -42,10 +43,15 @@ function App() {
        <Route exact path='/mobileacc' element= {<HotGadget mobileacc ={data.hotAccessories.mobileAccessories} mobileaccCover={data.hotAccessoriesCover.mobileAccessories} />} >
        </Route>
 
-      </Routes>
- 
-        
-    
+      </Routes>  
+
+
+      <Heading text ="PRODUCT REVIEWS"/>
+      <ProductReviews productReviews = {data.productReviews}/>
+
+
+      <Heading text ="VIDEOS"/>
+      <Videos videos = {data.videos}/>
  
     </Router>
    

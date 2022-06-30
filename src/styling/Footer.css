@@ -1,0 +1,124 @@
+.PreFooter1{
+    margin: 5vmax 0 0 0;
+    background-color: rgb(228, 220, 220);
+    padding: 1vmax;
+    padding-bottom: 0;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+    
+   
+}
+
+.PreFooter1 > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(66,66,66, 0.892);
+    cursor: pointer;
+   
+}
+
+.PreFooter1 >div:hover svg{
+    fill: orangered;
+}
+.PreFooter1 >div:hover p{
+    color: orangered;
+}
+
+
+
+.PreFooter1 svg{
+    transform: scale(1.5) translateY(-0.2vmax);
+    fill: rgba(66,66,66, 0.892);
+    margin: 2vmax;
+
+}
+
+
+
+
+
+
+
+
+
+.PreFooter2{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   height: 150px;
+   
+}
+
+.PreFooter2 > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.PreFooter2 > div p{
+    color: rgba(0,0,0, 0.892);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5vmax;
+    width: 18vmax;
+    margin: 0%;
+}
+
+.PreFooter2 > div span{
+    color: rgba(66,66,66, 0.892);
+    width: 18vmax;
+    font-size: 1vmax;
+}
+
+.PreFooter2 > div > div > input {
+    border: none;
+    outline: none;
+    padding: 0.5vmax 1vmax;
+    background-color: rgb(214, 208, 208);
+    font-size: 1vmax;
+    height: 4vmax;
+    width: 20.4vmax;
+
+}
+
+.PreFooter2 > div > div > button{
+
+    border: none;
+    padding: 0.5vmax;
+    outline: none;
+    height: 4vmax;
+    background-color: rgba(230, 134, 38, 0.692);
+}
+
+.PreFooter2 > div:nth-child(2) > span {
+    width: 22vmax;
+    padding: .5vmax;
+   
+}
+
+.PreFooter2 > div:nth-child(3){
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.PreFooter2 > div:nth-child(3) > p {
+    
+    width: 14vmax;
+}
+
+.PreFooter2 > div:nth-child(4){
+    flex-direction: row;
+
+    
+} 
+
+.PreFooter2 > div:nth-child(4) svg{
+    margin: 1vmax;
+    cursor: pointer;
+    
+} 
+
+

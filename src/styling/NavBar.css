@@ -21,6 +21,13 @@
     font-size: 1.1vmax;
 }
 
+
+.navlinks:hover{
+    color: orangered;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .logo{
     background-color: rgb(232, 199, 10);
     width: 58px;
